@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t pasewka/docker-react-test_dev  -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true pasewka/docker-react-test_dev npm run test
