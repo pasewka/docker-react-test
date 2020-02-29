@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing CI deployment!
+          Testing CI deployment! Again :)
         </a>
       </header>
     </div>
