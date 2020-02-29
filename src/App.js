@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React! Dima!!!!!!
+          Testing CI deployment!
         </a>
       </header>
     </div>
